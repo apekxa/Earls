@@ -1,0 +1,144 @@
+
+@media (min-width: 1200px) {
+    .first {
+        gap: 100px;
+    }
+    .container{
+        width: 100%;
+    }
+    .content h1 {
+        font-size: 6rem;
+    }
+    .bighead {
+        font-size: 180px;
+    }
+}
+
+/* Medium devices (tablets, 768px to 1199px) */
+@media (max-width: 1199px) {
+    .first {
+        flex-direction: column;
+        gap: 40px;
+        padding: 20px;
+    }
+    .content {
+        margin: 10% auto;
+        text-align: center;
+        margin-left: 0;
+    }
+    .content h1 {
+        font-size: 4rem;
+    }
+    .content p {
+        font-size: 1rem;
+        padding: 0 10px;
+    }
+    .about {
+        flex-direction: column;
+        padding: 20px;
+        gap: 20px;
+    }
+    .right img {
+        width: 100%;
+        height: auto;
+    }
+    .big img {
+        width: 400px;
+        height: 600px;
+    }
+    .box2 {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+/* Small devices (mobile phones, 767px and below) */
+@media (max-width: 767px) {
+    .first {
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px;
+        width: 450%;
+    }
+    .bighead{
+        display: none;
+    }
+    .opt ul {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .container{
+        width:450%;
+    }
+    .second{
+        background-position: center;
+        width: 450%;
+        padding-left: 60px;
+        height: 120vh;
+    }
+    .content h1 {
+        font-size: 2.5rem;
+    }
+    .content p {
+        font-size: 0.9rem;
+    }
+    .about {
+        flex-direction: column;
+        text-align: center;
+        padding: 10px;
+        width: 450%;
+    }
+    .left{
+        margin-left: -90%;
+        margin-top: 1%;
+    }
+    .right{
+        margin-left: -70%;
+        margin-top: -9%;
+    }
+    .red{
+        display: none;
+    }
+    .white{
+        display: none;
+    }
+    .rotate{
+        display: none;
+    }
+    .left1{
+        width: 40%;
+        padding: 30px 50px;
+    }
+    .left2 img{
+        display: none;
+    }
+    .about2{
+        width: 450%;
+    }
+    .card1 {
+        font-size: 0.9rem;
+        padding: 10px;
+    }
+    .heat{
+        width: 450%;
+        height: 200vh;
+    }
+    .opt2{
+        height: 200vh;
+    }
+    .reserve {
+        width: 90%;
+        margin: auto;
+    }
+    .reserveimg h1 {
+        font-size: 1.5rem;
+    }
+    .box2 {
+        flex-direction: column;
+        gap: 15px;
+        height: auto;
+    }
+    .foods p {
+        font-size: 1rem;
+    }
+}

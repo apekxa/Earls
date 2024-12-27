@@ -1,0 +1,383 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.first{
+    padding: 40px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 80px;
+    width: 100%;
+    margin: auto;
+    background-color: #0F1C21;
+    border-bottom: 1px solid goldenrod;
+}
+.opt ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+.opt ul li{
+    list-style: none;
+}
+.opt ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+.btn button{
+    border: none;
+    border: 1px solid rgb(128, 99, 26);
+    padding: 10px 30px;
+    color: white;
+    font-size: 1rem;
+    background: none;
+}
+.container{
+    background-color: #0F1C21;
+    padding: 0;
+}
+.bighead{
+    color: rgba(255, 255, 255, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.78em;
+    position: absolute;
+    -webkit-text-stroke: 2px  rgba(201, 171, 129, 0.412);
+    font-weight: 700;
+    font-size: 150px;
+    left:280px;
+
+}
+.second{
+    position: relative;
+    background: url(../assests/banner/banner-01.png) no-repeat center;
+    background-size: cover;
+    height: 120vh;
+
+}
+.content{
+    position: absolute;
+    margin-top: 17%;
+    margin-left: 120px;
+    font-size: 1.5rem;
+    line-height: 1.6;
+    
+}
+.content h4{
+    color: rgb(210, 173, 78) ;
+    font-weight: 200;
+}
+.content h1{
+    font-size: 5rem;
+    font-weight: 300;
+    color: white;
+}
+.content h1 span{
+    color:rgb(210, 173, 78) ;
+}
+.content p{
+    font-size: 1rem;
+    color: rgb(147, 143, 143);
+    font-weight: 600;
+}
+.btn1 button{
+    border: none;
+    border: 1px solid rgb(128, 99, 26);
+    padding: 10px 30px;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    background: none;
+    margin-top: 60px;
+
+}
+.btn1 button:hover{
+    background-color: rgb(210, 173, 78) ;
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+}
+.img1{
+    padding-top: 80px;
+    margin-left: -30px;
+    margin-bottom: 0;
+} 
+
+.third{
+    background-color: #0F1C21;
+    height: 110vh;
+}
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 40px;
+    line-height: 1.3;
+    padding: 0px 10px;
+    width: 100%;
+    
+}
+.left{
+    padding-top:75px;
+    margin-left: -20%;
+}
+.about .left h4{
+    color: rgb(210, 173, 78) ;
+    font-weight: 200;
+    font-size: 1.5rem;
+}
+.left h1{
+    padding-top: 20px;
+    font-size: 3rem;
+    font-weight: 600;
+    color: white;
+}
+.left h1 span{
+    color:rgb(210, 173, 78) ;
+}
+.left p{
+    font-size: 1rem;
+    color: rgb(147, 143, 143);
+    font-weight: 600;
+    line-height: 1.8;
+}
+.right{
+    position: relative;
+    margin-right: 10%;
+    padding: 0px 10px;
+    
+}
+.red img{
+    width: 740px;
+    height: 450px;
+    position:absolute;
+    margin-top: 80%;
+}
+.white img{
+    margin-left: -65%;
+    top: -30%;
+    position: absolute;
+    animation: fog 5s linear infinite;
+    transform-origin: bottom;
+    animation-direction: alternate-reverse;
+}
+@keyframes fog{
+    0%{
+        transform: rotate(-10deg);
+    }
+
+    0%{
+        transform: rotate(10deg);
+    }
+}
+.big img{
+    position: absolute;
+    margin-top: -50%;
+    width: 590px;
+    height: 810px;
+    left: 70%;
+}
+.rotate img{
+    position: relative;
+    top: 250px;
+    left: 30px;
+    animation: rotator 30s linear infinite;
+}
+@keyframes rotator{
+    100%{transform: rotate(360deg);}
+}
+
+
+.about2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: #0f1c21e7;
+    height: 110vh;
+}
+.container2{
+    position: relative;
+    background: url(../assests/images/fish-01.png) no-repeat center;
+    background-attachment: fixed;
+    
+}
+.left1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0f1c21cf;
+    height: 100vh;
+    width: 800px;
+    padding: 20px;
+}
+.card1{
+    color: aliceblue;
+    padding: 30px 20px;
+    line-height: 2;
+    
+}
+.card1 a{
+    color: white;
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+.card1 a:hover{
+    text-decoration: underline;
+    color:rgb(210, 173, 78);
+}
+.card1 img{
+    padding: 20px;
+    border-radius: 100px;
+    border: 1px solid rgb(210, 173, 78) ;
+}
+.card1 img:hover{
+    background-color: rgba(0, 0, 0, 0.434);
+    border-radius: 100px;
+    padding: 20px;
+}
+.menuu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menuu img{
+    animation: lr 1s linear infinite alternate;
+    transform-origin: center;
+}
+@keyframes lr{
+    0%{transform: rotate(-10deg);}
+
+    100%{transform: rotate(10deg);}
+}
+.special{
+    padding-top: 80px;
+}
+.special h4{
+    color: rgb(210, 173, 78) ;
+    font-style: italic;
+    font-size: 1.2rem;
+}
+.special h1{
+    font-size: 3rem;
+    padding: 0px 20px;
+    color: white;
+}
+.special h1 span{
+    color: rgb(210, 173, 78)
+}
+.fog11 img{
+    margin-left: 63%;
+    margin-top: -15%;
+
+}
+
+.box2{
+    margin-top: -10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+    height: 180vh;
+}
+
+.foodss{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+.foods{
+    border-bottom: 1px solid rgb(153, 114, 16);
+    padding-bottom: 40px;
+    padding-top: 30px;
+}
+.foods p{
+    padding-top: 10px;
+    color: rgb(223, 177, 61);
+    font-size: 1.2rem;
+}
+.starters h2{
+    color: white;
+    border-bottom: 1px solid rgb(153, 114, 16);
+    width:5%;
+}
+.box2 img{
+    padding-top:25px;
+    transition: transform 0.3s ease; 
+    overflow: hidden;
+}
+.box2 img:hover{
+    transform: scale(0.9);
+}
+.heat{
+    background: url(../assests/images/tab-bg.png) no-repeat center;
+    background-size: cover;
+    height: 120vh;
+}
+.opt2{
+    background-color: #0f1c21ae;
+    height:120vh ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40%;
+}
+.img22 img{
+    margin-left: 200%;
+    background-color:rgb(223, 177, 61);
+    border-radius: 100px;
+}
+.reserve{
+    background-color: #0F1C21;
+    height: 110vh;
+    width: 40%;
+}
+.reserveimg{
+    padding: 50px 60px;
+    background: url(../assests/shapes/shape-05.png) no-repeat left;
+    background-size:700px;
+}
+.reserveimg h1{
+    line-height: 1.3;
+    font-size: 2rem;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+.reserveimg h2{
+    color:rgb(223, 177, 61) ;
+}
+.reserveimg span{
+    color: rgb(223, 177, 61);
+
+}
+.reserveimg p{
+    padding-top: 0;
+    color: white;
+    font-size: 1.4rem;
+    text-align: justify;
+}
+.foodss h2{
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+.food1 {
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-weight:200;
+    font-size: 15px;
+}
